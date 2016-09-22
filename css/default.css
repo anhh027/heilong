@@ -1,0 +1,92 @@
+/*input, label, img, th {*/
+	/*vertical-align: middle;*/
+/*}*/
+.fonHei{
+	margin-bottom:0.53rem! important;
+	height:0.24rem! important;
+}
+.tlf{
+	text-align:left;
+}
+.lf{
+	float:left;
+}
+.rt{
+	float:right;
+}
+.fb{
+	font-weight:bold;
+}
+.h20{
+	height:0.2rem;
+}
+.bk30{
+	height:0.3rem
+}
+.h28{
+	margin-top:0.28rem;
+}
+.f20{
+	font-size:0.20rem;
+}
+.f24{
+	font-size:0.24rem;
+}
+.f26{
+	font-size:0.26rem;
+}
+.f30{
+	font-size:0.3rem;
+}
+.f32{
+	font-size:0.32rem;
+}
+.f22{
+	font-size:0.22rem;
+}
+.c33{
+	color:#333;
+}
+.c8{
+	color:#888;
+}
+.c6{
+	color:#666;
+}
+.c3{
+	color:#d31c4f;
+}
+.xq_title{
+	text-overflow: ellipsis;
+}
+.m02{
+	margin-top:-0.02rem;
+}
+.m10{
+	margin-right:0.1rem;
+}
+.p20{
+	padding-left:0.2rem;
+}
+.mt2{
+	margin-top:0.05rem;
+}
+.mb42{
+	margin-top:0.42rem! important;
+}
+.p26{
+	padding-left:2.64rem;
+}
+.p169{
+	padding-left:1.69rem;
+}
+.dd_tj{
+	margin:1.34rem auto 0.9rem;
+}
+.border-tb {
+	border-top: 1px solid #dfdfdd;
+	border-bottom: 1px solid #dfdfdd;
+}
+.bg-white {
+	background: #ffffff;
+}
