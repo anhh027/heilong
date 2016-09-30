@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>黑龙指纹锁</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/hlzws.css">
+	 <link rel="stylesheet" href="css/swiper.min.css">
+	<script src="js/base.js"></script>
+	<script src="js/jquery-1.7.1.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/index.js"></script>
+<style>
+.hlzws_xq_section1 .hlzws_xq_section1_item:nth-child(1){border-bottom:0;color:#666;}
+.hlzws_xq_section1 .hlzws_xq_section1_item:nth-child(1) a{color:#666;}
+.hlzws_xq_section1 .hlzws_xq_section1_item:nth-child(2){border-bottom:3px solid #c61f4d;color:#c61f4d;}
+.hlzws_xq_section1 .hlzws_xq_section1_item:nth-child(2) a{color:#c61f4d;}
+</style>
+</head>
+<body style="background:#F5F5F5;">
+ <!-- header -->
+<div class="hlzws_header">
+	<div class="hlzws_header_left">
+		<div class="hlzws_header_left_img">
+			<a href="javascript:;"><img src="images/hlzws_jt.png"></a>
+		</div>
+		<div class="hlzws_header_left_font">
+			<span class="hlzws_fh">返回</span>
+		<span class="hlzws_gb">关闭</span>
+		</div>
+	</div>	
+	<div class="hlzws_header_mid">
+		<a href="javascript:;">黑龙指纹锁</a>
+	</div>	
+	<div class="hlzws_header_right">
+		<div class="cir">
+					<div></div>
+					<div></div>
+					<div></div>
+		</div>
+	</div>	
+</div>
+<!-- header end-->
+<!-- hlzws_xq_section1 -->
+<div class="hlzws_xq_section1">
+	<div class="hlzws_xq_section1_item">
+		<a href="hlzws_sp.html">商品</a>
+	</div>
+	<div class="hlzws_xq_section1_item">
+		<a href="javascript:;">详情</a>
+	</div>
+	<div class="hlzws_xq_section1_item">
+		<a href="hlzws_cs.html">参数</a>
+	</div>
+	<div style="clear:both;"></div>
+</div>
+<!-- hlzws_xq_section1 end-->
+<!-- hlzws_spxq_section1 -->
+<div class="hlzws_spxq_section1">
+	<a href="javascript:;"><img src="./images/hwzws_xq_banner1.png"></a>
+</div>
+<!-- hlzws_spxq_section1 -->
+<!-- hlzws_xq_section5 -->
+<div class="hlzws_xq_section5">
+	<input type="button"value="立即购买">
+</div>
+<!-- hlzws_xq_section5 end-->
+<!--footer-->
+	<footer>
+		<ul>
+			<li>
+				<a href="javascript:;">
+					<img src="images/f_home1.png" alt="" class="ig1">
+					<img src="images/f_home.png" alt="" class="ig2">
+					<div class="d3">首页</div>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;">
+					<img src="images/f_221.png" alt="" class="ig1">
+					<img src="images/f_22.png" alt="" class="ig2">
+					<div class="d3">服务</div>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;">
+					<img src="images/f_331.png" alt="" class="ig1">
+					<img src="images/f_33.png" alt="" class="ig2">
+					<div class="d3">工单</div>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;">
+					<img src="images/f_441.png" alt="" class="ig1">
+					<img src="images/f_44.png" alt="" class="ig2">
+					<div class="d3">我的</div>
+				</a>
+			</li>
+		</ul>
+	</footer>
+<!--footer end-->
+<!-- Initialize Swiper -->
+<script>
+	var swiper = new Swiper('.swiper-container', {
+		pagination: '.swiper-pagination',
+		nextButton: '.swiper-button-next',
+		prevButton: '.swiper-button-prev',
+		paginationClickable: true,
+		// spaceBetween: 30,
+		centeredSlides: true,
+		autoplay: 2500,
+		autoplayDisableOnInteraction: false
+	});
+</script>
+<script>
+	var bb=$(".hlzws_section2 ul li");
+	var bb1=$(".hlzws_section2 ul li:nth-child(1)");
+	bb1.addClass("d2");
+	bb.each(function(i){
+            bb.eq(i).click(function(){
+                bb.removeClass("d2").eq(i).addClass("d2");
+            })
+        })
+</script>
+</body>
+</html>

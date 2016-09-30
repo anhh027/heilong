@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>收货地址</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/hlzws.css">
+    <script src="js/base.js"></script>
+    <script src="js/jquery-1.7.1.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+<style>
+header ul li{position:relative;}
+header ul li:nth-child(3){text-align:right;color:#fff;}
+header ul li:nth-child(2){padding-left:1.1rem;}
+</style>
+<!-- header -->
+<header>
+    <ul>
+        <li><a href="javascript:;"><span class="lJT">
+				<img src="images/2016-06-21_163056.png" alt="">
+			</span><span>返回</span></a></li>
+        <li><a href="javascript:;">收货地址</a></li>
+        <li>
+            <a href="javascript:;">编辑</a>
+        </li>
+    </ul>
+</header>
+<!-- header end-->
+<!--content-->
+<ul class="address-item">
+<li class="shrdz_content">
+    <div class="shrdz_limg">
+        <img src="images/dd_cir2.png" alt="">
+    </div>
+    <div class="shrdz_middle">
+        <p class="name_number">
+            <span class="shrdz_shrxm">安鸿鸿</span>
+            <span class="shrdz_shrdh">13191091481</span>
+        </p>
+        <p class="shrdz_address">
+            <span class="shrdz_addTilt">收货地址：</span>
+            <span class="shrdz_addProTit">山西</span>
+            <span class="shrdz_addShiTit">太原</span>
+            <span class="shrdz_addDes">山西省太原市万柏林区奥林匹克花园北区1号楼</span>
+        </p>
+    </div>
+    <div class="shrdz_right">
+        <a href="javascript:;">
+            <img src="images/qxgz.png" alt="" class="shdz_delete">
+        </a>
+        <a href="dizhi.html"><img src="images/arr-r.png" class="shdz_rjt"></a>
+
+    </div>
+
+</li>
+</ul>
+<div class="xgmm_qr">
+    <a href="dizhi.html">添加新地址</a>
+</div>
+
+<!--content end-->
+<!--footer-->
+    <footer>
+        <ul>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/f_home1.png" alt="" class="ig1">
+                    <img src="images/f_home.png" alt="" class="ig2">
+                    <div class="d3">首页</div>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/f_221.png" alt="" class="ig1">
+                    <img src="images/f_22.png" alt="" class="ig2">
+                    <div class="d3">服务</div>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/f_331.png" alt="" class="ig1">
+                    <img src="images/f_33.png" alt="" class="ig2">
+                    <div class="d3">工单</div>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/f_441.png" alt="" class="ig1">
+                    <img src="images/f_44.png" alt="" class="ig2">
+                    <div class="d3">我的</div>
+                </a>
+            </li>
+        </ul>
+    </footer>
+<!--footer end-->
+<script>
+    var lis3=$("header ul li:nth-child(3)");
+    var qxgzImg=$(".shdz_delete");
+    var rjtImg=$(".shdz_rjt");
+    var addAdd=$(".xgmm_qr");
+    qxgzImg.css({"display":"none"});
+//    console.log(lis3);
+    var flag=true;
+    lis3.click(function(){
+        if(flag==true){
+            lis3.text("完成");
+            qxgzImg.css({"display":"block"});
+            rjtImg.css({"display":"none"});
+            addAdd.css({"display":"none"});
+            flag=false;
+        }else{
+            lis3.text("编辑");
+            qxgzImg.css({"display":"none"});
+            rjtImg.css({"display":"block"});
+            addAdd.css({"display":"block"});
+            flag=true;
+        }
+    })
+</script>
+</body>
+</html>
